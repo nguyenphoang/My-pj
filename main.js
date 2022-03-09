@@ -1,11 +1,11 @@
 document.querySelector('.js').onclick = function (e) { 
-    alert('Under development')
+    swal ( "Sorry" ,  "Under development" ,  "error" )
 };
 document.getElementById('b').onclick = function (g) { 
-    alert('Under development')
+    swal ( "Sorry" ,  "Under development" ,  "error" )
 };
 document.getElementById('a').onclick = function (f) {
-    alert('Under development')
+    swal ( "Sorry" ,  "Under development" ,  "error" )
 };
 document.querySelector('.js').onmouseover = function (e) { 
     document.querySelector('.js').style.borderRadius = '50px'
